@@ -16,3 +16,40 @@ BakeLoaf is a full-stack web-based online bakery goods ordering system developed
 
 ---
 
+## 🧰 Technologies Used
+
+| Layer         | Technologies                                 |
+|---------------|----------------------------------------------|
+| Frontend      | HTML5, CSS3, JavaScript                      |
+| Backend       | PHP (Vanilla PHP, no framework)              |
+| Database      | MySQL (Managed via HeidiSQL/phpMyAdmin)      |
+| UI Framework  | Bootstrap                                    |
+| Email Service | PHPMailer                                    |
+
+---
+
+## 💾 Database Structure
+
+The database is exported as `bakeloaf.sql`.
+
+### Main Tables:
+- `users` – Stores customer and admin credentials.
+- `products` – Bakery item details.
+- `orders` – All order records.
+- `feedback` – Customer feedback.
+- `deliverers` – Delivery personnel details.
+- `locations` – Customer locations for delivery.
+- `history`, `cart`, etc. – Session and purchase data.
+
+> 📂 You’ll find the exported SQL dump in `/database/bakeloaf.sql`
+
+---
+
+## 🤖 Key Functionalities
+
+- Dynamic cart total update
+- Spinner loading animations
+- Form validation and alerts
+- Order email notifications via PHPMailer
+- Location tracking with Google Maps API
+
