@@ -53,3 +53,10 @@ The database is exported as `bakeloaf.sql`.
 - Order email notifications via PHPMailer
 - Location tracking with Google Maps API
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, distribute, and modify with attribution.
+
